@@ -2,9 +2,7 @@
 
 ## Overview
 
-
-![Process](Inpainting.mp4)
-
+https://github.com/nityanandmathur/Inpainting/assets/77379835/9900ff04-52f2-4247-a28d-34aeb33deb8c
 
 ## Inpainting results
 | Input Image | Generated Image |
