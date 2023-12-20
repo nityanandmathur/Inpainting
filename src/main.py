@@ -54,7 +54,6 @@ class inpainter:
             1. Upscaled image with size (2*max(image_size), 2*max(image_size))
         '''
         size = (2*max(self.image.size),)*2
-        print(size)
         upscaled_image = Image.new('RGB', size, (255,255,255))
         upscaled_image.paste(self.image, tuple(map(lambda x:int((x[0]-x[1])/2), zip(size, self.image.size))))
         return upscaled_image
