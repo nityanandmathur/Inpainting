@@ -23,36 +23,66 @@ https://github.com/nityanandmathur/Inpainting/assets/77379835/9900ff04-52f2-4247
 
 4. This entire procedure is repeated iteratively to generate a sequence of 9 images, thereby creating a zooming-out effect.
 
-| Input Image | Inpainted Image | Video |
-|:-----------:|:---------------:|:-----:|
-|  <img src="data/examples/example1.jpg" width="500"/>| ![Generated](data/generated/example1/Product%20in%20a%20kitchen%20used%20in%20meal%20preparation.png) | ![Video](data/video/Product%20in%20a%20kitchen%20used%20in%20meal%20preparation/output.gif)|
+| Input Image | Inpainted Image |
+|:-----------:|:---------------:|
+|  <img src="data/examples/example1.jpg" width="500"/>| ![Generated](data/generated/example1/Product%20in%20a%20kitchen%20used%20in%20meal%20preparation.png) |
 <p align="center"><em>Product in a kitchen used in meal preparation</em></p>
+<div align="center">
+    
+https://github.com/nityanandmathur/Inpainting/assets/77379835/61214a0c-3c92-4782-bb34-2368aad14e30
 
-| | | |
-|:-----------:|:---------------:|:-----:|
-|<img src="data/examples/example2.jpg" width="500"/>| ![Generated](data/generated/example2/Bicycle%20on%20a%20street.png) | ![Video](data/video/Bicycle%20on%20a%20street/output.gif) |
+</div>
+
+| | |
+|:-----------:|:---------------:|
+|<img src="data/examples/example2.jpg" width="500"/>| ![Generated](data/generated/example2/Bicycle%20on%20a%20street.png) |
 <p align="center"><em>Bicycle on a street</em></p>
+<div align="center">
+    
+https://github.com/nityanandmathur/Inpainting/assets/77379835/12e4404a-11f3-4cf2-8026-38ce07de3403
 
-| | | |
-|:-----------:|:---------------:|:-----:|
-|<img src="data/examples/example3.jpg" width="500"/>| ![Generated](data/generated/example3/toaster%20placed%20on%20kitchen%20stand.png) | ![Video](data/video/toaster%20placed%20on%20kitchen%20stand/output.gif) |
+</div>
+
+| | |
+|:-----------:|:---------------:|
+|<img src="data/examples/example3.jpg" width="500"/>| ![Generated](data/generated/example3/toaster%20placed%20on%20kitchen%20stand.png) |
 <p align="center"><em>Toaster placed on kitchen stand</em></p>
+<div align="center">
+    
+https://github.com/nityanandmathur/Inpainting/assets/77379835/3ccd81fa-be14-4bff-87bd-08a2f73a1c48
 
-| | | |
-|:-----------:|:---------------:|:-----:|
-|<img src="data/examples/example4.jpg" width="500"/>| ![Generated](data/generated/example4/chair%20behind%20a%20table%20in%20a%20study%20room.png) | ![Video](data/video/chair%20behind%20a%20table%20in%20a%20study%20room/output.gif) |
+</div>
+
+| | |
+|:-----------:|:---------------:|
+|<img src="data/examples/example4.jpg" width="500"/>| ![Generated](data/generated/example4/chair%20behind%20a%20table%20in%20a%20study%20room.png) |
 <p align="center"><em>Chair behind a table in a study room</em></p>
+<div align="center">
+    
+https://github.com/nityanandmathur/Inpainting/assets/77379835/e76afc7a-fe8b-4191-947f-1fade73f6624
 
-| | | |
-|:-----------:|:---------------:|:-----:|
-|<img src="data/examples/example5.jpg" width="500"/> |  ![Generated](data/generated/example5/tent%20in%20a%20forest.png)| ![Video](data/video/tent%20in%20a%20forest/output.gif) |
+</div>
+
+| | |
+|:-----------:|:---------------:|
+|<img src="data/examples/example5.jpg" width="500"/> |  ![Generated](data/generated/example5/tent%20in%20a%20forest.png)|
 <p align="center"><em>Tent in a forest</em></p>
+<div align="center">
 
-| | | |
-|:-----------:|:---------------:|:-----:|
-| <img src="data/examples/vat.jpg" width="500"/>| ![Generated](data/generated/vat/a%20bottle%20of%20whisky%20on%20stand%20of%20a%20bar.png) | ![Video](data/video/a%20bottle%20of%20whisky%20on%20stand%20of%20a%20bar/output.gif) |
+https://github.com/nityanandmathur/Inpainting/assets/77379835/fae7a791-60ff-464e-81a9-c38ef1118d9f
+
+</div>
+
+| | |
+|:-----------:|:---------------:|
+| <img src="data/examples/vat.jpg" width="500"/>| ![Generated](data/generated/vat/a%20bottle%20of%20whisky%20on%20stand%20of%20a%20bar.png) |
 <p align="center"><em>A bottle of whisky on stand of a bar</em></p>
+<div align="center">
+    
+https://github.com/nityanandmathur/Inpainting/assets/77379835/27e49e0e-f0a6-4686-a051-e026a0b93da6
 
+</div>
+    
 ### Failure cases
 The model fails to inpaint images involving humans.
 
