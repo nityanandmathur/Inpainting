@@ -23,6 +23,8 @@ https://github.com/nityanandmathur/Inpainting/assets/77379835/9900ff04-52f2-4247
 
 4. This entire procedure is repeated iteratively to generate a sequence of 9 images, thereby creating a zooming-out effect.
 
+> High-quality GIFs for each example are available [here](data/video/)
+
 | Input Image | Inpainted Image |
 |:-----------:|:---------------:|
 |  <img src="data/examples/example1.jpg" width="500"/>| ![Generated](data/generated/example1/Product%20in%20a%20kitchen%20used%20in%20meal%20preparation.png) |
