@@ -1,6 +1,9 @@
+import argparse
 import glob
+
 from PIL import Image
 from tqdm import tqdm
+
 
 def make_gif(path):
     # Set the output video file name
@@ -23,4 +26,9 @@ def make_gif(path):
                save_all=True, duration=50)
     
 if __name__ == "__main__":
-    make_gif("../data/video/a bottle of whisky on stand of a bar")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--path", type=str, required=True)
+
+    args = parser.parse_args()
+
+    make_gif(args.path)

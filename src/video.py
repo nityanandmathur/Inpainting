@@ -123,12 +123,12 @@ class inpainter:
         '''
         path = self.save_dir()
 
-        for i in tqdm(range(50,500,50)):
+        for i in tqdm(range(1,10,1)):
             self.image = self.upscale()
             self.mask = self.generate_mask()
-            self.plot(i//50)
+            self.plot(i)
             self.image = self.model(prompt=self.prompt, image=self.image, mask_image=self.mask, torch_device=self.device).images[0]
-            self.image.save(f"{path}{i//50}.png")
+            self.image.save(f"{path}{i}.png")
             print(f'Inpainted frame saved at: {path}{i}.png')
 
 if __name__ == "__main__":
